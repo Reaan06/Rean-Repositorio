@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Web Page: Chapter 9 of The Mysterious Island</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .hero-bg {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    .card-shadow {
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+    .fade-in {
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+  <header class="hero-bg text-white py-16 px-6">
+    <div class="container mx-auto text-center fade-in">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Chapter 9: The Mysterious Island</h1>
+      <h2 class="text-xl md:text-2xl font-medium mb-2">First Exploration of the Unknown Land</h2>
+      <p class="text-lg md:text-xl">Author: Jules Verne | Discovery, survival, and the first steps into the island</p>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-6 py-10 max-w-5xl">
+    <!-- Summary -->
+    <section class="mb-12 fade-in">
+      <h2 class="text-3xl font-semibold text-blue-800 mb-6">Chapter Summary</h2>
+      <p class="text-lg leading-relaxed mb-6">
+        After surviving the storm and reaching the island, the men begin to recover their strength. They explore their immediate surroundings, discovering freshwater streams, edible plants, and signs of animal life. The island seems wild but full of potential resources. Their first challenge is to find shelter, so they begin examining the rocky terrain and forests. Hope grows among the group as they realize that, despite the dangers, the island may offer everything they need to survive.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="card-shadow bg-white rounded-lg p-4">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/storm-ship.png" alt="A sailing ship with survivors moving closer to land after the storm, still surrounded by waves.">
+          <p class="text-center mt-3 text-gray-600 font-medium">Survivors heading toward the island</p>
+        </div>
+        <div class="card-shadow bg-white rounded-lg p-4">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/island-ship.png" alt="The same ship anchored near the island, with survivors stepping onto a tropical shore.">
+          <p class="text-center mt-3 text-gray-600 font-medium">First landing and exploration</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Events -->
+    <section class="mb-12 fade-in">
+      <h2 class="text-3xl font-semibold text-blue-800 mb-6">Key Events</h2>
+      <ul class="list-decimal list-inside text-lg space-y-3">
+        <li><strong>Recovery after the storm:</strong> The men rest and regain strength after the exhausting struggle.</li>
+        <li><strong>Discovery of water:</strong> They find a stream of fresh water that gives them hope.</li>
+        <li><strong>Exploration begins:</strong> They carefully walk inland, examining plants and wildlife.</li>
+        <li><strong>Shelter search:</strong> Rocky cliffs and forests provide possibilities for protection.</li>
+        <li><strong>Rising optimism:</strong> Despite uncertainty, the group feels that survival is possible on this new land.</li>
+      </ul>
+    </section>
+
+    <!-- Characters -->
+    <section class="mb-12 fade-in">
+      <h2 class="text-3xl font-semibold text-blue-800 mb-6">Main Characters</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="card-shadow bg-white rounded-lg p-6 text-center">
+          <h3 class="text-xl font-bold text-blue-700 mb-2">Cyrus Smith</h3>
+          <p class="text-gray-700">The engineer, taking leadership to organize the first exploration.</p>
+        </div>
+        <div class="card-shadow bg-white rounded-lg p-6 text-center">
+          <h3 class="text-xl font-bold text-blue-700 mb-2">Gideon Spilett</h3>
+          <p class="text-gray-700">The journalist, keen observer, records every discovery mentally.</p>
+        </div>
+        <div class="card-shadow bg-white rounded-lg p-6 text-center">
+          <h3 class="text-xl font-bold text-blue-700 mb-2">Pencroff</h3>
+          <p class="text-gray-700">The sailor, pragmatic and strong, helps in finding resources.</p>
+        </div>
+        <div class="card-shadow bg-white rounded-lg p-6 text-center">
+          <h3 class="text-xl font-bold text-blue-700 mb-2">Harbert Brown</h3>
+          <p class="text-gray-700">The young man, curious and energetic, eager to learn from the new land.</p>
+        </div>
+        <div class="card-shadow bg-white rounded-lg p-6 text-center">
+          <h3 class="text-xl font-bold text-blue-700 mb-2">Neb</h3>
+          <p class="text-gray-700">Faithful companion of Cyrus, practical and strong in moments of need.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Themes -->
+    <section class="mb-12 fade-in">
+      <h2 class="text-3xl font-semibold text-blue-800 mb-6">Themes and Analysis</h2>
+      <p class="text-lg leading-relaxed mb-6">
+        This chapter emphasizes themes of discovery, cooperation, and adaptation. The island begins to reveal itself not just as a place of danger, but also of opportunity. The explorers represent human curiosity and resilience, transforming fear into action.
+      </p>
+      <p class="text-lg leading-relaxed">
+        For a simple presentation, focus on how their first steps into the island show both fear and excitement. The unknown land symbolizes both challenge and hope for a new beginning.
+      </p>
+    </section>
+
+    <!-- Interactivity -->
+    <section class="text-center mb-12">
+      <h2 class="text-3xl font-semibold text-blue-800 mb-6">Interactivity: Highlight Keywords</h2>
+      <p class="text-lg mb-4">Click on the keywords to highlight them and make your presentation easier.</p>
+      <div class="space-x-4">
+        <button class="px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition" onclick="highlightWord('island')">Island</button>
+        <button class="px-4 py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition" onclick="highlightWord('exploration')">Exploration</button>
+        <button class="px-4 py-2 bg-yellow-600 text-white rounded-full hover:bg-yellow-700 transition" onclick="highlightWord('shelter')">Shelter</button>
+        <button class="px-4 py-2 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition" onclick="highlightWord('discovery')">Discovery</button>
+      </div>
+      <p id="highlightText" class="mt-4 text-lg font-medium text-gray-700">General view of highlighted keywords.</p>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-white py-8 px-6 text-center">
+    <p class="text-lg">© 2023 Educational Mini Web Page about *The Mysterious Island*. Designed for presentations and learning. Inspired by the work of Jules Verne.</p>
+    <p class="mt-2">Save this page as an HTML file for offline access.</p>
+  </footer>
+
+  <script>
+    function highlightWord(word) {
+      const body = document.body;
+      body.innerHTML = body.innerHTML.replace(/<mark>/g, '').replace(/<\/mark>/g, '');
+      const regex = new RegExp(`\\b${word}\\b`, 'gi');
+      body.innerHTML = body.innerHTML.replace(regex, `<mark class="bg-yellow-300">$&</mark>`);
+      document.getElementById('highlightText').textContent = `Keyword "${word}" highlighted in the text.`;
+    }
+  </script>
+</body>
+</html>
